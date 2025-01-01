@@ -47,6 +47,11 @@ pip install -r requirements.txt
 python create_db.py
 ```
 
+5. Run API Server:
+```bash
+python app.py
+```
+
 ## Usage
 
 ### Register New Account
