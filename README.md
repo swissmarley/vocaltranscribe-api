@@ -15,8 +15,10 @@ Welcome to the VocalTranscribe API Service. This server, built using Python, Fla
 5. [Endpoints](#endpoints)
 6. [SSL Configuration](#ssl-configuration)
 7. [Database Setup](#database-setup)
-8. [License](#license)
-9. [Contributing](#contributing)
+8. [Client App](#client-app)
+9. [License](#license)
+10. [Contributing](#contributing)
+11. [Wiki](#wiki)
 
 ## Features
 
@@ -102,6 +104,17 @@ To add a user with a subscription plan, run:
 python create_account.py user@example.com --plan silver
 ```
 
+## Client App
+
+Follow these steps to set up and use the client application for testing the API server:
+```bash
+cd client-app
+pip install -r requirements.txt
+python main.py
+```
+
+For more details and guides, take a look at our [GitHub Wiki](https://github.com/swissmarley/vocaltranscribe-api/wiki)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -109,3 +122,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contributing
 
 We welcome contributions! Please read our Contributing Guidelines for more details.
+
+## Wiki
+
+📖 For detailed documentation and guides, visit our [GitHub Wiki](https://github.com/swissmarley/vocaltranscribe-api/wiki).
